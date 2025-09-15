@@ -1,0 +1,142 @@
+.bag-page {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding-top: 32px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Items Section */
+.bag-items-container {
+  flex: 2;
+  padding-right: 20px;
+  border-right: 1px solid #eaeaec;
+}
+
+/* Summary Section */
+.bag-summary {
+  flex: 1;
+  padding-left: 16px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.bag-details-container {
+  margin-bottom: 16px;
+}
+
+.price-header {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #282c3f;
+}
+
+.priceDetail-base-discount {
+  color: #03a685;
+}
+
+.price-footer {
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaec;
+  color: #3e4152;
+}
+
+/* Button unified with index.css */
+.btn-place-order {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 16px;
+  background-color: rgb(255, 63, 108);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Bag Items */
+.bag-item-container {
+  margin-bottom: 12px;
+  background: #fff;
+  font-size: 14px;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  padding: 12px;
+  gap: 12px;
+}
+
+/* Left part: image */
+.item-left-part {
+  background: rgb(255, 242, 223);
+  height: 148px;
+  width: 111px;
+  flex-shrink: 0;
+}
+
+.bag-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right part: details */
+.item-right-part {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 148px;
+}
+
+/* Return and delivery info */
+.return-period {
+  display: flex;
+  font-size: 14px;
+  padding-top: 8px;
+}
+.return-period-days {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.delivery-details {
+  margin-top: 5px;
+  color: #282c3f;
+  font-size: 12px;
+  letter-spacing: -.1px;
+  margin-bottom: 8px;
+  line-height: 15px;
+}
+.delivery-details-days {
+  color: #03a685;
+}
+
+/* Remove Icon */
+.remove-from-cart {
+  position: absolute;
+  font-size: 22px;
+  top: 10px;
+  right: 18px;
+  cursor: pointer;
+  color: #555;
+}
+.remove-from-cart:hover {
+  color: #d32f2f;
+}
